@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion store Landing Page</title>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+
+    <script src="js.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Navigation-->
+    <header class="row container">
+        <a href="#" class="logo">Suit-now.</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="row">
+                <li><a href="#">Home</a></li>
+                <li><a href="#trend">Trending</a></li>
+                <li><a href="#category">Category</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+            <ul class="row">
+                <li class="store row"><img src="icons/shopping-bag-svgrepo-com.svg" width="24" height="24" viewBox="0 0 24 24" alt="">
+                    <div class="counter row">
+                        <p>3</p>
+                    </div>
+                </li>
+                <li class="page-btn active"><a href="#">Login</a></li>
+                <li class="page-btn"><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Hero Section-->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Focus on yourself.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor earum tempora! Id facilis atque temporibus hic magnam illum perspiciatis qui accusantium libero pariatur ipsa, cum laboriosam assumenda explicabo quos.</p>
+
+                <div class="btns row">
+                    <a class="page-btn">Shop now</a>
+                    <div class="row">
+                        <img src="icons/play-button-svgrepo-com.svg" width="50" height="50" viewBox="0 0 50 50" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper mySwiper hero-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide row">
+                        <img src="./img/elegant-young-handsome-man.jpg" width="350" height="500" />
+                        <a href="#" class="dot style1">
+                            <h5>Brazzer</h5>
+                            <p>$200</p>
+                        </a>
+                        <a href="#" class="dot style2">
+                            <h5>Shirt</h5>
+                            <p>$200</p>
+                        </a>
+                        <a href="#" class="dot style3">
+                            <h5>Jean</h5>
+                            <p>$200</p>
+                        </a>
+                        <a href="#" class="dot style4">
+                            <h5>Shoes
+                            </h5>
+                            <p>$200</p>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide row">
+                        <img src="./img/elegant-young-handsome-man.jpg" width="350" height="500" />
+                        <a href="#" class="dot style1">
+                            <h5>Brazzer</h5>
+                            <p>$200</p>
+                        </a>
+                        <a href="#" class="dot style2">
+                            <h5>Shirt</h5>
+                            <p>$200</p>
+                        </a>
+                        <a href="#" class="dot style3">
+                            <h5>Jean</h5>
+                            <p>$200</p>
+                        </a>
+                        <a href="#" class="dot style4">
+                            <h5>Shoes</h5>
+                            <p>$200</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Promo-->
+    <section class="promo container">
+        <div class="heading">
+            <h2>Promo of this month.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi architecto eligendi nostrum modi asperiores optio recusandae rerum molestiae harum sed ut porro iste impedit officia ad, veniam possimus facere unde.</p>
+
+        </div>
+        <div class="swiper mySwiper promo-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide row">
+                    <img src="./img/—Pngtree—fashion female bag_5617397.png" width="150" height="150" alt="">
+                    <div class="price row">
+                        <div>
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide row">
+                    <img src="./img/fashion-shoes-sneakers.jpg" width="150" height="120" alt="">
+                    <div class="price row">
+                        <div>
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide row">
+                    <img src="./img/elegant-watch-with-silver-golden-chain-isolated.jpg" width="150" height="150" alt="">
+                    <div class="price row">
+                        <div>
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide row">
+                    <img src="./img/fashionable-woman-s-high-heel-shoe-isolated-white-background-beautiful-blue-female-high-heels-shoe-luxury-rear-view-women-high-heels-shoes.jpg" width="150" height="120" alt="">
+                    <div class="price row">
+                        <div>
+                            <h5>Purse</h5>
+                            <p>30$ &nbsp; <s>$70</s></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="slider-arrow row">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    <!----Trending-->
+    <section class="trend container" id="trend">
+        <div class="heading">
+            <h2>Trending outfits of the week.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi architecto eligendi nostrum modi asperiores optio recusandae rerum molestiae harum sed ut porro iste impedit officia ad, veniam possimus facere unde.</p>
+        </div>
+        <div class="swiper mySwiper trend-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide row">
+                    <img src="./img/elegant-young-handsome-man.jpg" width="280" height="400" alt="">
+                </a>
+                <a href="#" class="swiper-slide row">
+                    <img src="./img/portrait-young-beautiful-african-american-fashion-model-woman-wear-green-top-black-shiny-wet-look-pants.jpg" width="280" height="400" alt="">
+                </a>
+                <a href="#" class="swiper-slide row">
+                    <img src="./img/attractive-black-african-american-woman-posing-stylish-green-leopard-printed-dress-isolated-green-studio-background-summer-fashion-trend-happy-smiling-curly-hair-wearing-denim-jeans-jacket.jpg" width="280" height="400" alt="">
+                </a>
+            </div>
+            <div class="slider-arrow row">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+<!---Category--->
+<section class="category container" id="category">
+    <div class="heading">
+        <h2>Category Fashion.</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi architecto eligendi nostrum modi asperiores optio recusandae rerum molestiae harum sed ut porro iste impedit officia ad, veniam possimus facere unde.</p>
+    </div>
+    <div class="category-cards column">
+        <a href="#" class="c-card">
+            <img src="./img/tenderness-sensuality-beauty-concept-charming-young-slim-european-25s-woman-red-loose-sweater-combing-hair-touching-haircut-as-glancing-lingeringly.jpg" width="600" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">All</button>
+            </div>
+        </a>
+        <a href="#" class="c-card">
+            <img src="./img/images (4).jpeg" width="300" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">Shirts</button>
+            </div>
+        </a>
+        <a href="#" class="c-card">
+            <img src="./img/trendy-young-woman-jumping-pink-background-full-length-view-carefree-female-model-denim-outfit.jpg" width="300" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">Jeans</button>
+            </div>
+        </a>
+        <a href="#" class="c-card">
+            <img src="./img/images (2).jpeg" width="300" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">Shoes</button>
+            </div>
+        </a>
+        <a href="#" class="c-card">
+            <img src="./img/pink-sweater-front.jpg" width="300" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">Lingers</button>
+            </div>
+        </a>
+        <a href="#" class="c-card">
+            <img src="./img/images (3) (1).jpeg" width="300" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">Suits</button>
+            </div>
+        </a>
+        <a href="#" class="c-card">
+            <img src="./img/images (5).jpeg" width="300" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">Caps</button>
+            </div>
+        </a>
+        <a href="#" class="c-card">
+            <img src="./img/elegant-watch-with-silver-golden-chain-isolated.jpg" width="300" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">Watches</button>
+            </div>
+        </a>
+        <a href="#" class="c-card">
+            <img src="./img/images (7).jpeg" width="300" height="300" alt="">
+            <div class="c-card-btn row">
+                <button type="submit" class="page-btn">Jackets</button>
+            </div>
+        </a>
+    </div>
+    <a href="#" class="page-btn row">More categories</a>
+</section>
+
+<!--Brands-->
+<section class="brands row container">
+    <a href="#" class="b-card"><img src="./img/images (10).jpeg" width="200" height="150" alt=""></a>
+    <a href="#" class="b-card"><img src="./img/images (11).jpeg" width="200" height="150" alt=""></a>
+    <a href="#" class="b-card"><img src="./img/images (9).jpeg" width="200" height="150" alt=""></a>
+</section>
+
+<!--Subscribe--->
+<section class="subscribe row container">
+    <div class="img row"><img src="./img/tenderness-sensuality-beauty-concept-charming-young-slim-european-25s-woman-red-loose-sweater-combing-hair-touching-haircut-as-glancing-lingeringly.jpg" width="650" height="400" alt=""></div>
+    <div class="subscribe-content row">
+        <div>
+            <div class="heading">
+                <h2>Get more discounts up to 48%..</h2>
+                <p>Join our mailing lists.</p>
+            </div>
+            <form action="" class="row">
+                <input type="email" name="id" id="" placeholder="Your email address">
+                <button type="submit" class="row"> <img src="./icons/send-svgrepo-com.svg" width="20" height="20" alt=""></button>
+            </form>
+
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer row container">
+        <div class="footer-content">
+            <a href="#" class="logo">Suit-now.</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit, reiciendis accusamus minima dolor optio. Totam modi magnam reprehenderit saepe, impedit eligendi at, voluptates quisquam repellendus hic nesciunt blanditiis eum.</p>
+            <h4>Find us</h4>
+            <div class="media-links row">
+                <a href="#" class="row">
+                    <img src="./icons/facebook-svgrepo-com.svg" width="20" height="20" alt="">
+                </a>
+                <a href="#" class="row">
+                    <img src="./icons/instagram-svgrepo-com.svg" width="20" height="20" alt="">
+                </a>
+                <a href="#" class="row">
+                    <img src="./icons/twitter-svgrepo-com.svg" width="20" height="20" alt="">
+                </a>
+                <a href="#" class="row">
+                    <img src="./icons/pinterest-svgrepo-com.svg" width="20" height="20" alt="">
+                </a>
+            </div>
+        </div>
+        <div>
+            <h4>Shop</h4>
+            <ul>
+                <li>
+                    <a href="#">Men</a></li>
+                <li>
+                    <a href="#">Women</a></li>
+                <li>
+                    <a href="#">Accessories</a></li>
+                <li>
+                    <a href="#">Trends</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Information</h4>
+            <ul>
+                <li>
+                    <a href="#">About us</a></li>
+                <li>
+                    <a href="#">Customer service</a></li>
+                <li>
+                    <a href="#">Privacy & policy</a></li>
+                <li>
+                    <a href="#">Terms & conditions</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="copy-right">&copy; 2022. All reserved by Addash.</p>
+</footer>
+
+</html>
